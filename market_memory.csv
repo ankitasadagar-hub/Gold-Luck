@@ -1,0 +1,3 @@
+Date,Metal,Price,Prediction,Reasoning
+2025-12-30 00:31,Gold,₹125644.73,Logged,"Error contacting AI: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}"
+2025-12-30 00:31,Silver,₹205531.13,Logged,"Error contacting AI: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}"

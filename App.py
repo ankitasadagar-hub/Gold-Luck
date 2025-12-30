@@ -6,11 +6,13 @@ import os
 import json
 from openai import OpenAI
 from datetime import datetime
+from dotenv import load_dotenv
 
-# --- 🔧 USER CONFIGURATION 🔧 ---
-# ⚠️ PASTE YOUR KEYS HERE
-GOLD_API_KEY = "" 
-OPENROUTER_API_KEY = ""
+load_dotenv()
+
+# Fetch keys securely
+GOLD_API_KEY = os.getenv("GOLD_API_KEY")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 AI_MODEL = "meta-llama/llama-3.1-8b-instruct"
 
